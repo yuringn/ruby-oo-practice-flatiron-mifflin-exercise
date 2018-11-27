@@ -3,7 +3,7 @@
 In this project, you will get the chance to practice object relationships in Ruby, with a particular emphasis on the `has_many/belongs_to` relationship. Make sure you read the entire README and map out your domain models before writing any code!
 
 ## Introduction
-Welcome to your first day at the Flatiron Mifflin Paper Company. As the Assistant to the Regional Manager, your job is to implement the new Office Management System for both the employers and their managers. Since Michael (your boss) has personally tasked you with this job, you can't disappoint.
+Welcome to your first day at the Flatiron Mifflin Paper Company. As the Assistant to the Regional Manager, your job is to implement the new Office Management System for both the employees and their managers. Since Michael (your boss) has personally tasked you with this job, you can't disappoint.
 
 ---
 ## Setup (Code)
@@ -57,4 +57,4 @@ Here are some questions to consider:
   * `Employee.find_by_department`
     * takes a `String` argument that is the name of a department and returns the first employee whose manager is working in that department
   * `Employee#tax_bracket`
-    * returns an `Array` of all the employers whose salaries are within $1000 (± 1000) of the employer's
+    * returns an `Array` of all the employees whose salaries are within $1000 (± 1000) of the employee's who invoked the method
