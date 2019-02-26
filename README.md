@@ -57,4 +57,4 @@ Here are some questions to consider:
   * `Employee.find_by_department`
     * takes a `String` argument that is the name of a department and returns the first employee whose manager is working in that department
   * `Employee#tax_bracket`
-    * returns an `Array` of all the employees whose salaries are within $1000 (± 1000) of the employee's who invoked the method
+    * returns an `Array` of all the employees whose salaries are within $1000 (± 1000) of the employee who invoked the method
